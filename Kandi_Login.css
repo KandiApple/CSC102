@@ -1,0 +1,45 @@
+
+body {
+    background: linear-gradient(to right, burlywood, #CC00CC, burlywood);
+}
+
+body {
+color: black;
+}
+
+h1 {
+color: dark brown;
+text-shadow: 1px 3px 25px black;
+}
+
+First Name {
+    font-family: monospace;
+    color: black;
+    border: 3px solid brown;
+    clear: left;
+  }
+
+  Last Name {
+    font-family: monospace;
+    color: black;
+    border: 3px solid brown;
+    clear: left;
+  }
+
+    Badge Number {
+    font-family: monospace;
+    color: black;
+    border: 3px solid brown;
+    clear: left;
+  }
+
+#countDownTimer {
+    font-weight: bold;
+    font-size: large;
+    color: blueviolet
+}
+
+#loginTitleStyle {
+    color: white;
+
+}

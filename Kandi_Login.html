@@ -1,0 +1,41 @@
+<BBAssignment html>
+
+
+
+<html>
+    <script src="Kandi_Login.js"></script>
+    <link href="Kandi_Login.css" rel="stylesheet" type="text/css" />
+    <picture> 
+        <!--Allows my gif to be shown-->
+        <img src="file:///Users/kandilicious/Desktop/School%20Folders/CSC102/UATspaceLogo-2.jpeg" 
+        alt="UATspaceLogo" width="205" height="205">
+        
+        <img src="https://i.pinimg.com/originals/e8/ac/f3/e8acf353c62e02bcbd50859eb757718c.gif" 
+        alt="ArtGif" width="205" height="205">
+
+    </picture>
+
+    <head>
+        <title>
+            Operator Login
+        </title>
+    </head>
+
+
+    <body>
+        <h1 id="loginTitleStyle"> <center>Welcome to your Operator Login</center></h1>
+    
+            <h3>Please fill out the forms below...</h3>
+            <br>
+            <p id="loginStatus">Your status of login</p> 
+            <br>
+            <form id="creditSubmit" onsubmit="return false">
+                First Name: <input type="text" id="fName" /> <br>
+                Last Name: <input type="text" id="lName" /> <br>
+                Badge Number: <input type="number" id="badgeID" /> <br>
+                <input type="submit" onclick="checkCreds();" />
+            </form>
+    </body>
+
+
+</html>
